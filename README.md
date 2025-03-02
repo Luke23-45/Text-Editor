@@ -1,6 +1,6 @@
-Advanced SDL Text Editor
+# Text Editor
 
-A simple, yet functional, text editor built using C++ and SDL2, providing basic text editing capabilities with syntax highlighting, undo/redo, copy/paste, and theme switching.
+A functional, text editor built using C++ and SDL2, providing basic text editing capabilities with syntax highlighting, undo/redo, copy/paste, and theme switching.
 
 ## Getting Started
 
@@ -10,23 +10,21 @@ Ensure you have the following installed:
 - [SDL2](https://www.libsdl.org/)
 - [SDL2_ttf](https://www.libsdl.org/projects/SDL_ttf/)
 
-
 ## Project Structure
 
-- `colorfull_ball.cc`: Main C++ source file. (Note: The file name is incorrect, it should be the source file name of the editor.)
+- `text.cc`: Main C++ source file. (Note: The file name is incorrect, it should be the source file name of the editor.)
 - `Makefile`: Build the project.
-- `src/`: Source code directory.
-    - `include/`: Header files.
-    - `lib/`: SDL related
-
+- `src/`
+    - `include/`
+    - `lib/`
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone git@github.com:Luke23-45/Advanced-SDL-Text-Editor.git
+    git clone git@github.com:Luke23-45/Text-Editor.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Advanced-SDL-Text-Editor
+    cd Text-Editor
     ```
 3. Compile the code:
     ```bash
@@ -34,7 +32,7 @@ Ensure you have the following installed:
     ```
 4. Run the executable:
     ```bash
-    ./Advanced-SDL-Text-Editor
+    ./main
     ```
 5. In window:
     ```bash
